@@ -185,7 +185,6 @@ footer{
 footer a{
    color: #ccc;
    text-decoration: none;
-   background-color: none;
 }
 footer a:hover{
    color: #ED242F;
