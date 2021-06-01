@@ -25,6 +25,8 @@ body {
 
 .topnav a:hover {
   color: #00132B;
+  background: none;
+  border: none;
 }
 
 .topnav a.active {
@@ -82,22 +84,22 @@ body {
 h1{
    font-size: 11vh;
    margin-left: 50px;
-   font-weight: 0.8;
+   font-weight: bold;
    letter-spacing: -1px;
 }
 h2{
    color: #00132B;
    font-size: 40px;
-   font-weight: 0.8;
+   font-weight: bold;
    margin: 0;
 }
 h3{
    color: #00132B;
    font-size: 30px;
-   font-weight: 0.8;
+   font-weight: bold;
    margin: 0;
 }
-.hero-text a{
+body a{
    background-color: #ED242F;
    color: #fff;
    font-size: 30px;
@@ -106,9 +108,11 @@ h3{
    text-align: center;
    margin-right: 10px;
 }
-.hero-text a:hover{
+body a:hover{
    background-color: #fff;
    color: #00132B;
+   transition: 0.3s;
+   border: 2px solid #00132B;
 }
 .row {
   display: flex;
@@ -133,6 +137,9 @@ h3{
   margin-right: 20px;
   border-radius: 8px;
 }
+.card img{
+  width: 100%;
+}
 .card-body{
    padding: 2px 16px;
 }
@@ -141,20 +148,6 @@ h3{
 }
 p{
    font-size: 20px;
-}
-button{
-   background-color: #04254D;
-   padding: 15px;
-}
-button a{
-   text-decoration: none;
-   color: #fff;
-   font-size: 20px;
-   font-weight: 0.8;
-}
-button:hover{
-   text-decoration: none;
-   color: #fff;
 }
 hr{
    margin-left: 20%;
@@ -192,6 +185,7 @@ footer{
 footer a{
    color: #ccc;
    text-decoration: none;
+   background-color: none;
 }
 footer a:hover{
    color: #ED242F;
